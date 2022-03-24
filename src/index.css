@@ -1,8 +1,10 @@
-*{
-    color: rgb(0, 87, 3);
+
+h1{
+color: crimson;
 }
+
 h1:hover {
-     color: crimson;
+     color: rgb(220, 133, 20);
 }
 
 h2{
