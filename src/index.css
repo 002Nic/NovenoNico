@@ -4,7 +4,7 @@ color: crimson;
 }
 
 h1:hover {
-     color: rgb(220, 133, 20);
+     color: rgb(255, 115, 0);
 }
 
 h2{
@@ -19,5 +19,9 @@ p{
     color: darkgreen;
 }
 h3{
-    color: darkgreen;
+    color: crimson;
+}
+
+h3:hover{
+    color: rgb(255, 115, 0);
 }
