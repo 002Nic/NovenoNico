@@ -9,6 +9,7 @@ h1:hover {
 
 h2{
     color: deepskyblue;
+    border-radius: 15px;
 }
 
 h2:hover{
