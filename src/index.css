@@ -4,3 +4,9 @@
 h1:hover {
      color: crimson;
 }
+*{
+    color: blue;
+}
+h2:hover{
+    color: cyan;
+}
