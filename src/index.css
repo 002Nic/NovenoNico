@@ -1,10 +1,10 @@
 *{
-    color: darkorange;
+    color: rgb(0, 0, 0);
 }
 h1:hover {
      color: crimson;
 }
 
 h2:hover{
-    color: cyan;
+    color: rgb(37, 77, 209);
 }
