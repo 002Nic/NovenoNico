@@ -14,3 +14,7 @@ h2{
 h2:hover{
     color: rgb(37, 77, 209);
 }
+
+p{
+    color: darkgreen;
+}
