@@ -5,9 +5,10 @@ h1:hover {
      color: crimson;
 }
 
-*{
-    color: dodgerblue;
+h2{
+    color: deepskyblue;
 }
+
 h2:hover{
     color: rgb(37, 77, 209);
 }
