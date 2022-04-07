@@ -1,7 +1,7 @@
 /*javaScript como todo lenguaje de programacion se basa en la utilizacion de palabra reservada*/
 // creacion de variables
 var nom = "Nicolas"; //no se recomienda usarla
-count nombre = "Fernando"
+const nombre = "Fernando"
 let apellido = "Guevara"
 
 alert (nombre);
