@@ -17,4 +17,7 @@ else
         if(operaciones == "dividir" || operaciones == "/"){
             resultado = num1 / num2;
         }
+
+        resultado= operaciones == "suma" || operaciones == "+" ? num1 + num2:   operaciones =="restar" || operaciones == "-" ? num1 - num2:  operaciones =="multiplicar" || operaciones == "*" ? num1 * num2:  num1 / num2 ;
+        
         alert("El resultado de tu operacion es: " + resultado);
