@@ -11,10 +11,23 @@ Es un lenguaje usado prioritariamente en desarrollo web inicialmente en Front en
 ### Tipos de Datos
 En JavaScript hay diverso tipos de datos. Entre los cuales encontramos:
 
-1. Entero
-2. Decimal(coma flotante)
-3. Cadena(Texto)
-4. Objeto
-5. Array
+1. Entero (Integer)
+2. Decimal (coma flotante - Float)
+3. Cadena (Texto - String)
+4. Objeto (object)
+5. Arreglo (Array)
 6. Boolean
 7. NULL
+
+### Operadores
+
+En JavaScript existen operadores aritmeticos, los cuales son:
+
+1. Adicion (+)
+2. Sustraccion (-)
+3. Multiplicacion (*)
+4. Divicion (/)
+
+## HTML
+
+Para incertar de manera automatica el codigo basico para iniciar una pagina web podemos utilizar el comando html:5
