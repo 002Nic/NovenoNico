@@ -28,6 +28,16 @@ En JavaScript existen operadores aritmeticos, los cuales son:
 3. Multiplicacion (*)
 4. Divicion (/)
 
+## Vriables
+
+En JavaScrpt se pueden crear variables de 3 maneras, cada una con efectos especificos:
+
+1. Con la palabra **var** (No es recomendable usarla debido a que la crea de manera global)
+2. Con la palabra reservada **let** (Se limita a su hambitode creacion)
+3. Con la palabra reservada **const** (El objetivo es que su contenido no varie en su tipo)
+
 ## HTML
 
-Para incertar de manera automatica el codigo basico para iniciar una pagina web podemos utilizar el comando html:5
+Para insertar de manera automatica el codigo basico para iniciar una pagina web podemos utilizar el comando **html:5**.
+
+Para insertar un script de JavaScript debemos usar la etiqueta **script**, la cual nos permite insertar codigo JavaScript dentro de la pagina o le podemos indicar la ubicacion de un archivo externo
