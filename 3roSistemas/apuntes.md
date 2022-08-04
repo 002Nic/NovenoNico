@@ -18,6 +18,22 @@ En JavaScript hay diverso tipos de datos. Entre los cuales encontramos:
 5. Arreglo (Array)
 6. Boolean
 7. NULL
+   **Primitivos**
+-Number
+-String
+-Boolean
+
+javascript es un tipo de lenguajes con un tipado debil y dinamico. loque significa ue una variabes puede tomar un tipo de dato y luego cambiar a otro sin necesidad de ser estricto en su creacion o su tipo de dato.
+**array (arreglo)**
+Es un tipo de estructura de datos que permite organizar valores en una variables. puede contener diferentes tipos de datos, tales como: numeros, cadenas, booleanos, objetos y otros arrays.
+object
+
+### valores en javascript
+
+20 =numero
+"Nicolás" = string o cadena de caracteres
+true = boolean o booleano
+
 
 ### Operadores
 
@@ -28,13 +44,24 @@ En JavaScript existen operadores aritmeticos, los cuales son:
 3. Multiplicacion (*)
 4. Divicion (/)
 
-## Vriables
+## Variables
 
 En JavaScrpt se pueden crear variables de 3 maneras, cada una con efectos especificos:
 
 1. Con la palabra **var** (No es recomendable usarla debido a que la crea de manera global)
 2. Con la palabra reservada **let** (Se limita a su hambitode creacion)
 3. Con la palabra reservada **const** (El objetivo es que su contenido no varie en su tipo)
+
+Las variables tienen 2 estados:
+
+**Declaradas**
+let nombre;
+**inicializadas**
+nombre ="Anastasia";
+
+Para inicializar  una variables se usa el signo '=' (llamado operador de asignacion)
+pero en javascript puedo utilizar ambas cosas (Declaracion e inicializacion) en una sola linea
+let numero = 45;
 
 ## HTML
 
