@@ -28,6 +28,13 @@ javascript es un tipo de lenguajes con un tipado debil y dinamico. loque signifi
 Es un tipo de estructura de datos que permite organizar valores en una variables. puede contener diferentes tipos de datos, tales como: numeros, cadenas, booleanos, objetos y otros arrays.
 object
 
+let nombres = [];
+nombres = ["Juan","Felipe","Franco","Omar"];
+
+un array organiza sus datos con indices, los cuales indican la posicion con numeros indicando con el numero 0. Esta caracteristica me permite acceder al contenido del array en un lugar especifico que pueda necesitar o desee acceder. por ejemplo:
+
+console.log(nombres [1]); Muestra la segunda posicion del array ("felipe")
+
 ### valores en javascript
 
 20 =numero
@@ -68,3 +75,27 @@ let numero = 45;
 Para insertar de manera automatica el codigo basico para iniciar una pagina web podemos utilizar el comando **html:5**.
 
 Para insertar un script de JavaScript debemos usar la etiqueta **script**, la cual nos permite insertar codigo JavaScript dentro de la pagina o le podemos indicar la ubicacion de un archivo externo
+
+## funciones
+let a = 3; 
+let b= 5; 
+let numero = a+b;
+console.log(numero2);
+palabra reservada: es una palabra que le indica a un lenguaje de programacion que ejecute o que aparte un espacio de memoria algunas de ellas no se pueden usar como nombre de variables
+function sumar () { 
+    console.log(numero2); 
+}
+sumar(); 
+la funciones son instrucciones para ejecutarse en el momento que son invocadas o llamadas. son utiles porque permiten reutilizar codigo las veces que sea necesario. 
+hay dos tipos de funciones: la declarativos y las de expresion 
+let suma = function(variable, variable2){
+    let variable = variable+variable2;
+     return variable; 
+}
+
+    function sumar (variable, variable2) {
+        let variable = variable+variable2;
+        console.log(variable);
+    }
+sumar(a, b);
+Al momento de utilizar una funcion debemos asegurarnos de que las variables que usemos como parametros esten previamente definidos

@@ -5,3 +5,4 @@ let peso = 0;
 //let = peso_usuario = parseInt(usuario);
 let luna = 1/6;
 console.log (luna);
+
