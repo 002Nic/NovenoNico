@@ -1,0 +1,6 @@
+let num1= parseInt(prompt("escribe un numero:"));                                                                                                                                     
+let num2= parseInt(prompt("escribe otro numero:"));                  
+function sumar (num1,num2) {                                                
+return variable = num1+num2;                                                
+}                                                                       
+sumar(num1, num2);
