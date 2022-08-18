@@ -87,7 +87,8 @@ function sumar () {
 }
 sumar(); 
 la funciones son instrucciones para ejecutarse en el momento que son invocadas o llamadas. son utiles porque permiten reutilizar codigo las veces que sea necesario. 
-hay dos tipos de funciones: la declarativos y las de expresion 
+hay dos tipos de funciones: la declarativos y las de expresion
+
 let suma = function(variable, variable2){
     let variable = variable+variable2;
      return variable; 
