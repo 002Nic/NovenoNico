@@ -100,3 +100,6 @@ let suma = function(variable, variable2){
     }
 sumar(a, b);
 Al momento de utilizar una funcion debemos asegurarnos de que las variables que usemos como parametros esten previamente definidos
+
+**Eventos**
+los eventos en javascript sirven para cuando deseamos controlar un comportamiento dentro de la pagina web. son una serie de instruciones que se activan cuando se cumplen una o mas condiciones.
