@@ -2,3 +2,20 @@
     background-color: #14C38E;
     color: #B8F1B0;
 }
+h1:hover {
+    color:rgb(0, 139, 133);
+}
+form{
+    width: 50%;
+}
+main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    align-self: auto;
+}
