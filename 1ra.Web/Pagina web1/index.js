@@ -4,6 +4,7 @@ window.onload = () => {
         e.preventDefault();
         const pendiente = document.getElementById("pendiente");
         const contenido = pendiente.value;
-        alert(contenido);
+        pendiente.value = "";
+        console.log (contenido);
     }
 }

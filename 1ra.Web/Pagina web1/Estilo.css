@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url("./Tipografia/Silkscreen-Regular.ttf");
+}
+
 *{
-    background-color: #14C38E;
+    background-color: #17c775;
     color: #B8F1B0;
 }
+h1 {
+    font-family: "Silkscreen";
+}
 h1:hover {
-    color:rgb(0, 139, 133);
+    color:rgb(0, 139, 104);
 }
 form{
     width: 50%;
