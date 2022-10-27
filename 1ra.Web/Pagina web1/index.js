@@ -1,3 +1,4 @@
+const pendientes = [];
 window.onload = () => {
     const formulario = document.getElementById("Formulario-2022");
     formulario.onsubmit = (e) => {
