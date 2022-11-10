@@ -14,5 +14,13 @@ window.onload = () => {
             const e = pendientes[i];
             listado.innerHTML += "<li>" + e + "</li>"
         }
+        const Elementos= document.querySelectorAll("#por-hacer li");
+        Elementos.forEach((elemento, i) =>{
+            elemento.addEventListener("click", () => {
+                elemento.parentNode.removeChild(elemento);
+                pendientes.splice(i)
+                console.log(elemento, i)
+            })
+        })
     }
 }

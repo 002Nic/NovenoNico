@@ -3,15 +3,23 @@
     src: url("./Tipografia/Silkscreen-Regular.ttf");
 }
 
+@font-face {
+    font-family: "zesant";
+    src: url("./Tipografia/zesant.ttf");
+}
+
 *{
     background-color: #17c775;
     color: #B8F1B0;
 }
-h1 {
+h2 {
     font-family: "Silkscreen";
 }
 h1:hover {
     color:rgb(0, 139, 104);
+}
+h1 {
+    font-family: "zesant";
 }
 form{
     width: 50%;
